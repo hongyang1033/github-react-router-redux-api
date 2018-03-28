@@ -9,10 +9,12 @@
 ```
 
 ### Search
+
 #####From URL
 ```
 http://localhost:8080/?search={name of the repo}
 ```
+
 #####From SearchBar
 ```
 Key in the value in the searchbar to begin searching
