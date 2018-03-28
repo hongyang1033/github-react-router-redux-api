@@ -24,8 +24,10 @@ class Home extends Component {
   }
 
   onInputChange = (event) => {
-    this.props.history.replace(`?search=${event.target.value}`);
-    this.props.fetchRepos(event.target.value);
+    if(event.target.value !== '') {
+      this.props.history.replace(`?search=${event.target.value}`);
+      this.props.fetchRepos(event.target.value);
+    }
   }
 
   render () {
