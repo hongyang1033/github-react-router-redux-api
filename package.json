@@ -20,7 +20,9 @@
     "webpack-dev-server": "^2.8.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "history": "^4.7.2",
+    "qs": "^6.5.1",
     "react": "16.0.0",
     "react-dom": "16.0.0",
     "react-redux": "^5.0.6",
